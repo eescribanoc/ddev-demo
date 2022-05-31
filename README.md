@@ -101,6 +101,9 @@ ddev xdebug off
 SOLR configuration has been moved inside .ddev folder, that will be mounted in the solr cores created in ddev.
 Check .ddev/solr-demo and .ddev/solr-umami
 
+# Presentation
+.ddev/_resources/presentation
+
 # Credits
 Gábor Mészáros | Senior Drupal Developer
 Drupal.org: cleverhoods
