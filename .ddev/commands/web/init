@@ -11,7 +11,7 @@ cd "${PWD}" || exit 1;
 
 PROJECT_DIRECTORY=${PWD}
 
-declare -a drupal_sites=('default', 'umami')
+declare -a drupal_sites=('default' 'umami')
 
 for site in "${drupal_sites[@]}"
 do
