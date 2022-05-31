@@ -1,3 +1,21 @@
+# Presentation
+.ddev/_resources/presentation
+
+# Credits
+### Gábor Mészáros | Senior Drupal Developer
+
+Drupal.org: cleverhoods
+
+LinkedIN: cleverhoods
+
+Github: cleverhoods
+
+### Elisabeth Escribano | Lead Drupal Developer
+
+Drupal.org: e.escribano
+
+LinkedIN: eescribano
+
 # Requirements
 ## Install ddev locally
 ```
@@ -100,16 +118,3 @@ ddev xdebug off
 # SOLR
 SOLR configuration has been moved inside .ddev folder, that will be mounted in the solr cores created in ddev.
 Check .ddev/solr-demo and .ddev/solr-umami
-
-# Presentation
-.ddev/_resources/presentation
-
-# Credits
-Gábor Mészáros | Senior Drupal Developer
-Drupal.org: cleverhoods
-LinkedIN: cleverhoods
-Github: cleverhoods
-
-Elisabeth Escribano | Lead Drupal Developer
-Drupal.org: e.escribano
-LinkedIN: eescribano
