@@ -51,10 +51,7 @@ do
   drush @$site cache:rebuild
   # Drush cache clear.
   drush @$site cache:clear drush
-  drush @$site config-split:export excluded -y
   drush @$site config:import -y
-  drush @$site config-split:import dev -y
-  drush @$site config-split:import excluded -y
   drush @$site cache:rebuild
 done
 

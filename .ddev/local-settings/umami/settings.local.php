@@ -10,3 +10,5 @@
 $databases['default']['default']['prefix'] = 'umami_';
 
 $settings['rebuild_access'] = TRUE;
+
+$settings['config_sync_directory'] = '../config/umami/sync';

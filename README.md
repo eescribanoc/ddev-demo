@@ -1,29 +1,3 @@
-# Make sure there is a files folder.
-```
-cd web/sites/default
-mkdir files
-mkdir files/private
-mkdir files/tmp
-cd ..
-cd umami
-mkdir files
-mkdir files/private
-mkdir files/tmp
-```
-# Add symlink to the local config file:
-```
-cd web/sites/default
-ln -sf ../../../.ddev/local-settings/demo/settings.php
-ln -sf ../../../.ddev/local-settings/demo/settings.env.php
-ln -sf ../../../.ddev/local-settings/demo/settings.local.php
-ln -sf ../../../.ddev/local-settings/demo/local.development.services.yml
-cd ..
-cd umami
-ln -sf ../../../.ddev/local-settings/umami/settings.php
-ln -sf ../../../.ddev/local-settings/umami/settings.env.php
-ln -sf ../../../.ddev/local-settings/umami/settings.local.php
-ln -sf ../../../.ddev/local-settings/umami/local.development.services.yml
-```
 # Requirements
 ## Install ddev locally
 ```
@@ -37,6 +11,10 @@ brew install mutagen-io/mutagen/mutagen
 # Start project
 ```
 ddev start
+```
+# Run init and this will make symlinks to the settings and create files folders
+```
+ddev init
 ```
 # Import DB locally
 Export a database file at the following formats:
@@ -122,3 +100,13 @@ ddev xdebug off
 # SOLR
 SOLR configuration has been moved inside .ddev folder, that will be mounted in the solr cores created in ddev.
 Check .ddev/solr-demo and .ddev/solr-umami
+
+# Credits
+Gábor Mészáros | Senior Drupal Developer
+Drupal.org: cleverhoods
+LinkedIN: cleverhoods
+Github: cleverhoods
+
+Elisabeth Escribano | Lead Drupal Developer
+Drupal.org: e.escribano
+LinkedIN: eescribano
